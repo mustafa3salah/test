@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>العربة</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="../assets/img/favicon.png" rel="icon" />
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="../../assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    
+  <!-- Nice Select -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+  integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+      href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="../../assets/css/business.css" rel="stylesheet" />
+    <link href="../../assets/css/style.rtl.css" rel="stylesheet" />
+
+  </head>
+
+  <body class="cart">
+    <!-- ======= Header ======= -->
+    <header
+      id="header"
+      class="header position-relative d-flex align-items-center scroll-up-sticky"
+    >
+      <div class="container d-flex align-items-center justify-content-between">
+        <a
+          href="../../index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0"
+        >
+          <img src="../../assets/img/business-portal-sign.svg" alt="" />
+        </a>
+
+        <!-- Nav Menu -->
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="../../index.html">حلولنا</a></li>
+            <li><a href="microsoft-products.html">اعداد</a></li>
+            <li><a href="operation-solutions.html">تشغيل</a></li>
+            <li><a href="consulting.html"> استشارات </a></li>
+            <li><a href="../../index.html">المتجر</a></li>
+          </ul>
+  
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+        <!-- End Nav Menu -->
+
+        <div class="d-flex gap-4 align-items-center">
+          <div class="feat-icon">en</div>
+          <div class="d-flex gap-3 align-items-center">
+            <div class="part-icon">
+              <img src="../../assets/img/icon/cart-b.svg" alt="cart">
+              <div class="num-search d-flex justify-content-center align-items-center">2</div>
+            </div>
+            <div class="part-icon"><img src="../../assets/img/icon/search-b.svg" alt="search"></div>
+            <li class="dropdown btn-nav-profile-name has-dropdown">
+              <a href="#"
+                ><span
+                  ><img src="../../assets/img/icon/Profile.svg" alt="profile" /> هلا , بسام
+                </span>
+                <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul class="dd-box-shadow text-center br-20">
+                <li><a href="#">لوحة التحكم</a></li>
+                
+                <li><a href="#">حسابي</a></li>
+                <li><a href="../../sign-in.html">تسجيل الخروج</a></li>
+              </ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+      <div class="container">
+        <div class="w-100">
+          <ul class="nav nav-pills bg-white p-1 br-24 my-3 d-flex align-items-center justify-content-center">
+            <li class="py-4">
+              <a
+                class="nav-cart br-24 px-5 py-3 custom-active active"
+                data-bs-toggle="pill"
+                
+                ><i class="bi bi-check-lg"></i> العربة
+              </a>
+            </li>
+            <span>/</span>
+            <li class="py-4">
+              <a class="nav-cart br-24 px-5 py-3" data-bs-toggle="pill" 
+                ><i class="bi bi-check-lg"></i> تفاصيل الطلب</a
+              >
+            </li>
+            <span>/</span>
+            <li class="py-4">
+              <a class="nav-cart br-24 px-5 py-3" data-bs-toggle="pill"
+                ><i class="bi bi-check-lg"></i> تفاصيل الدفع</a
+              >
+            </li>
+            <span>/</span>
+            <li class="py-4">
+              <a class="nav-cart br-24 px-5 py-3" data-bs-toggle="pill"
+                ><i class="bi bi-check-lg"></i> اتمام الطلب</a
+              >
+            </li>
+          </ul>
+
+          <!-- End Tabs -->
+          <div class="tab-content">
+            <div class="tab-pane fade  tab-forma show active" id="tab1">
+                <div class="row">
+                  <div class="col-md-9">
+                    <div class="product-charge b-white mb-3">
+                        <div class="px-5 py-2">
+                            <div class="title row py-3 pe-4 mt-3">
+                                <div class="col-3 text-center">الخدمة / المنتج</div>
+                                <div class="col-3 text-center">السعر</div>
+                                <div class="col-3 text-center">الكمية</div>
+                                <div class="col-3 text-center">المجموع</div>
+                            </div>
+                            <div class="product row py-3 pe-4 gray align-items-center position-relative mb-3">
+                                <i class="bi bi-x"></i>
+                                <div class="col-3 text-center"> <img src="../../assets/img/icon/microsoft.svg" alt="">مايكروسوفت 356</div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                                <div class="col-3 text-center d-flex gap-3 justify-content-center"> <div class="plus-price">+</div> <div>2</div> <div class="minus-price">-</div></div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                            </div>
+                            <div class="product row py-3 pe-4 gray align-items-center position-relative mb-3">
+                                <i class="bi bi-x"></i>
+                                <div class="col-3 text-center"> <img src="../../assets/img/icon/microsoft.svg" alt="">مايكروسوفت 356</div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                                <div class="col-3 text-center d-flex gap-3 justify-content-center"> <div class="plus-price">+</div> <div>2</div> <div class="minus-price">-</div></div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                            </div>
+                            <div class="product row py-3 pe-4 gray align-items-center position-relative mb-3">
+                                <i class="bi bi-x"></i>
+                                <div class="col-3 text-center"> <img src="../../assets/img/icon/microsoft.svg" alt="">مايكروسوفت 356</div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                                <div class="col-3 text-center d-flex gap-3 justify-content-center"> <div class="plus-price">+</div> <div>2</div> <div class="minus-price">-</div></div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                            </div>
+                            <div class="product row py-3 pe-4 gray align-items-center position-relative mb-3">
+                                <i class="bi bi-x"></i>
+                                <div class="col-3 text-center"> <img src="../../assets/img/icon/microsoft.svg" alt="">مايكروسوفت 356</div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                                <div class="col-3 text-center d-flex gap-3 justify-content-center"> <div class="plus-price">+</div> <div>2</div> <div class="minus-price">-</div></div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-charge b-white mb-5">
+                        <div class="px-5 py-3">
+                            <div class="d-flex justify-content-between align-items-end ga py-4">
+                                <h3 class="">منتجات سيتم شحنها</h3>
+                                <p class="color-business text-start"> <i class="bi bi-geo-alt-fill"></i> الرياض, حي الشراقوة </p>
+                            </div>
+                            <hr class="m-0">
+                            <div class="title row py-3 pe-4 mt-3">
+                                <div class="col-3 text-center">الخدمة / المنتج</div>
+                                <div class="col-3 text-center">السعر</div>
+                                <div class="col-3 text-center">الكمية</div>
+                                <div class="col-3 text-center">المجموع</div>
+                            </div>
+                            <div class="product row py-3 pe-4 gray align-items-center position-relative mb-3">
+                                <i class="bi bi-x"></i>
+                                <div class="col-3 text-center"> <img src="../../assets/img/icon/microsoft.svg" alt="">مايكروسوفت 356</div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                                <div class="col-3 text-center d-flex gap-3 justify-content-center"> <div class="plus-price">+</div> <div>2</div> <div class="minus-price">-</div></div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                            </div>
+                            <div class="product row py-3 pe-4 gray align-items-center position-relative mb-3">
+                                <i class="bi bi-x"></i>
+                                <div class="col-3 text-center"> <img src="../../assets/img/icon/microsoft.svg" alt="">مايكروسوفت 356</div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                                <div class="col-3 text-center d-flex gap-3 justify-content-center"> <div class="plus-price">+</div> <div>2</div> <div class="minus-price">-</div></div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                            </div>
+                            <div class="product row py-3 pe-4 gray align-items-center position-relative mb-3">
+                                <i class="bi bi-x"></i>
+                                <div class="col-3 text-center"> <img src="../../assets/img/icon/microsoft.svg" alt="">مايكروسوفت 356</div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                                <div class="col-3 text-center d-flex gap-3 justify-content-center"> <div class="plus-price">+</div> <div>2</div> <div class="minus-price">-</div></div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                            </div>
+                            <div class="product row py-3 pe-4 gray align-items-center position-relative mb-3">
+                                <i class="bi bi-x"></i>
+                                <div class="col-3 text-center"> <img src="../../assets/img/icon/microsoft.svg" alt="">مايكروسوفت 356</div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                                <div class="col-3 text-center d-flex gap-3 justify-content-center"> <div class="plus-price">+</div> <div>2</div> <div class="minus-price">-</div></div>
+                                <h5 class="col-3 text-center">100 رس</h5>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                    
+                  <div class="col-md-3">
+                    <div class="details-card br-20 bg-white p-4">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p>السعر</p>
+                            <h5 class="text-start">100 رس</h5>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p>ضريبة القيمة المضافة  ( 15% )</p>
+                            <h5 class="text-start">20 رس</p>
+                        </div>
+                        <hr class="m-0 mb-3">
+                        <label for="#code" class="d-block">كود الخصم</label>
+                        <input type="text" id="code" class="w-100 p-2 mt-1 mb-3 input-code">
+                        <a href="" class="feat mb-3">تطبيق</a>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p>قيمة الخصم</p>
+                            <h5 class="text-start">50 رس</h5>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p>الاجمالي</p>
+                            <h5 class="text-start color-business">1520 رس</h5>
+                        </div>
+                        <a href="#" class="part  next-tab">التالي</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade  tab-forma" id="account">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="br-20 bg-white py-4 pe-3 ps-5 mb-3 account">
+
+                            <form action="#" class="account-form mx-5">
+
+                                <div class="row justify-content-start mb-5">
+                                <h3 class="mb-5 strong">تفاصيل المستخدم</h3>
+                                <div class="col-md-5">
+        
+                                  <div class="form-group mb-3">
+                                    <label class="label" for="name">الاسم الاول</label>
+                                    <input type="text" id="name" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-5">
+                                  <div class="form-group mb-3">
+                                    <label class="label" for="last-name">الاسم الاخير</label>
+                                    <input type="text" class="form-control" id="last-name">
+                                  </div>
+                                </div>
+                                <div class="col-md-5">
+                                  <div class="form-group mb-3">
+                                    <label class="label" for="email">البريد الالكتروني</label>
+                                    <input type="email" class="form-control" id="email">
+                                  </div>
+                                </div>
+                                <div class="col-md-5">
+                                  <div class="form-group mb-3">
+                                    <label class="label" for="tel">رقم الموبايل</label>
+                                    <div class="position-relative">
+                                      <div class="position-absolute icon-num">+966</div>
+                                        <input id="tel" type="number"  class="form-control">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-5">
+                                  <div class="form-group mb-3">
+                                    <label class="label" for="com-name">اسم الشركة</label>
+                                    <!-- <input type="tel" class="form-control"> -->
+                                    <input id="com-name" type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-5">
+                                </div>
+                              </div>
+
+                              <h3 class="mb-5 strong">تفاصيل الشحن</h3>
+                              <div class="row justify-content-start ">
+                                <div class="col-md-5">
+        
+                                  <div class="form-group mb-3">
+                                    <div class="form-group mb-3 position-relative ">
+                                        <label class="label" for="">الدولة</label>
+                                        <div class="nice-select mb-3 w-100 form-control" tabindex="0">
+                                          <span class="current">اختر الدولة</span>
+                                          <ul class="list">
+                                            <li data-value="السعودية" class="option"> السعودية</li>
+                                            <li data-value="البحرين" class="option">البحرين</li>
+                                            <li data-value="قطر" class="option">قطر</li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-5">
+                                  <div class="form-group mb-3">
+                                    <div class="form-group mb-3 position-relative ">
+                                        <label class="label" for="">المدينة</label>
+                                        <div class="nice-select mb-3 w-100 form-control" tabindex="0">
+                                          <span class="current">اختر المدينة</span>
+                                          <ul class="list">
+                                            <li data-value="جدة" class="option">جدة</li>
+                                            <li data-value="الرياض"class="option"> الرياض</li>
+                                            <li data-value="معروفة" class="option">معروفة</li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-5">
+                                  <div class="form-group mb-3">
+                                    <label class="label" for="zip"> الرمز البريدي</label>
+                                    <input type="email" class="form-control" id="zip">
+                                  </div>
+                                </div>
+                                <div class="col-md-5">
+                                  <div class="form-group mb-3">
+                                    <label class="label" for="nation"> الحي </label>
+                                    <input id="nation" type="text"  class="form-control">
+                                  </div>
+                                </div>
+                                
+
+                              </div>
+                            </form>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="details-card br-20 bg-white p-4">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p>السعر</p>
+                            <h5 class="text-start">100 رس</h5>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p>ضريبة القيمة المضافة  ( 15% )</p>
+                            <h5 class="text-start">20 رس                        </h5></div>
+                        <hr class="m-0 mb-3">
+                        <label for="#code" class="d-block">كود الخصم</label>
+                        <input type="text" id="code" class="w-100 p-2 mt-1 mb-3 input-code">
+                        <a href="" class="feat w-100 mb-3">تطبيق</a>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p>قيمة الخصم</p>
+                            <h5 class="text-start">50 رس</h5>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p>الاجمالي</p>
+                            <h5 class="text-start color-individual">1520 رس</h5>
+                        </div>
+                        <a href="#" class="part next-tab">التالي</a>
+                    </div>
+                      </div>
+                </div>
+              </div>
+              <div class="tab-pane fade  tab-forma" id="tab3">
+                <div class="row">
+                    <div class="br-20 col-md-9 bg-white p-4 mb-5 plat">
+                        <div class="row gap-2 justify-content-center align-items-center mb-5 ">
+                          <h3 class="col-3 strong-3">طريقة الدفع</h3>
+                          <div class="col-8 px-0">
+                              <label class="img-btn">
+                                <input type="radio" name="payments-icon" checked>
+                                <img src="../../assets/img/icon/payments/visa-logo.svg" alt="visa">
+                          </label>
+                    
+                          <label class="img-btn">
+                                <input type="radio" name="payments-icon">
+                                <img src="../../assets/img/icon/payments/Mastercard.svg" alt="Mastercard" >
+                            </label>
+                    
+                            <label class="img-btn">
+                                <input type="radio" name="payments-icon">
+                                <img src="../../assets/img/icon/payments/Maestrop-3.svg" alt="ApplePay">
+                            </label>          
+                            <label class="img-btn">
+                                <input type="radio" name="payments-icon">
+                                <img src="../../assets/img/icon/payments/PayPalp-4.svg" alt="GooglePay">
+                            </label>          
+                            <label class="img-btn">
+                                <input type="radio" name="payments-icon">
+                                <img src="../../assets/img/icon/payments/GooglePay.svg" alt="mada">
+                            </label>          
+                        
+                            <label class="img-btn">
+                                <input type="radio" name="payments-icon">
+                                <img src="../../assets/img/icon/payments/ApplePayp-5.svg" alt="stcPay">
+                            </label>          
+                            </div>
+                        </div>
+                        <div class="row gap-2 align-items-start ">
+                            <h3 class="col-3 text-center strong-3"> تفاصيل الكارت </h3>
+                            <div class="col-8 me-4">
+                                <div class="accordion my-3" id="accordionExample">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header position-relative" id="headingOne">
+                                        <button class="accordion-button br-15 py-3 pe-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          <img src="../../assets/img/icon/master-card.png" alt="">
+                                        <div class="Expires-master-card me-4">
+                                          <span>Mastercard Ending In 4589</span>
+                                          <span>Expires 05/29 | Bassam Ahmed</span>
+                                        </div>
+                                        </button>
+                                      </h2>
+                                      <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ad.
+                                        </div>
+                                      </div>
+                                    </div>
+                                 </div>
+                                 <div id="payment" class="row">
+                                    <div class="br-20 bg-white py-4 px-3 mb-3 account">
+                                        <form action="#" class="account-form row">
+                                            <div class="col-md-12">
+                                                <div class="form-group mb-3">
+                                                  <label class="label" for="#card-num"> رقم الكارت </label>
+                                                  <div class="position-relative">
+                                                    <img class="position-absolute icon-num" src="../../assets/img/icon/Group 42362pay.svg" alt="">
+                                                  <input id="card-num"  type="text" class="form-control">
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-3">
+                                                  <label class="label" for="#fn"> الاسم الأول</label>
+                                                  <input id="fn" type="text" class="form-control">
+                                                </div>
+                                              </div>
+                                              <div class="col-md-6">
+                                                <div class="form-group mb-3">
+                                                  <label class="label" for="#ln"> اللاسم الاخير </label>
+                                                  <input id="ln"  type="text" class="form-control">
+                                                </div>
+                                              </div>
+                                              <div class="col-md-6">
+                                                <div class="form-group mb-3">
+                                                  <div class="form-group mb-3 position-relative ">
+                                                    <label class="label" for="">شهر الانتهاء</label>
+                                                    <input id="month"  type="month" class="form-control">
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-6">
+                                                <div class="form-group mb-3">
+                                                  <div class="form-group mb-3 position-relative ">
+                                                    <label class="label" for="">سنة الانتهاء</label>
+                                                    <div class="nice-select mb-3 w-100 form-control" tabindex="0">
+                                                      <span class="current">اختر السنة</span>
+                                                      <ul class="list">
+                                                        <li data-value="السعودية" class="option"> السعودية</li>
+                                                        <li data-value="البحرين" class="option">البحرين</li>
+                                                        <li data-value="قطر" class="option">قطر</li>
+                                                      </ul>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="col-5 pe-4">
+                                  <div class="form-group mb-3 d-flex align-items-center flex-row-reverse justify-content-end ps-3">
+                                    <label class="label m-0 color-business" for="remember"> تذكرني </label>
+                                    <input id="remember" type="checkBox">
+                                  </div>
+                                </div>
+                                <div class="col-5">
+                                
+                                </div>
+                                        </form>
+                                      </div>
+                                    <!-- -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="details-card br-20 bg-white p-4">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p>السعر</p>
+                            <h5 class="text-start">100 رس</h5>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p>ضريبة القيمة المضافة  ( 15% )</p>
+                            <h5 class="text-start">20 رس                        </h5></div>
+                        <hr class="m-0 mb-3">
+                        <label for="#code" class="d-block">كود الخصم</label>
+                        <input type="text" id="code" class="w-100 p-2 mt-1 mb-3 input-code">
+                        <a href="" class="feat w-100 mb-3">تطبيق</a>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p>قيمة الخصم</p>
+                            <h5 class="text-start">50 رس</h5>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p>الاجمالي</p>
+                            <h5 class="text-start color-individual">1520 رس</h5>
+                        </div>
+                        <a href="#" class="part next-tab">اتمام الطلب</a>
+                    </div>
+                      </div>
+                </div>
+              </div>
+              <div class="tab-pane fade  tab-forma" id="tab4">
+                <div class="br-20 bg-white p-5 mb-4 d-flex flex-column align-items-center gap-4 success-payment">
+                    <div class=""><img src="../../assets/img/success.svg" alt="success"></div>
+                    <h3 class="color-business ">تم الدفع بنجاح</h3>
+                    <div class="part">تصفح الحلول</div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- -------------------------------------------------------------------------------------- -->
+
+    <!-- Scroll Top Button -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script>
+      
+        // increment count  
+  
+        let upButtons = document.querySelectorAll(".plus-price");
+        let downButtons = document.querySelectorAll(".minus-price");
+        upButtons.forEach((upButton)=> {
+          upButton.addEventListener("click", () => {
+            var element = upButton.parentElement.children[1];
+            element.textContent = `${+element.textContent+1}`;
+        });
+    });
+    downButtons.forEach((downButton)=> {
+        downButton.addEventListener("click", () => {
+            var element = downButton.parentElement.children[1];
+            Number(element.textContent)>0? element.textContent = `${+element.textContent-1}`:'';
+          });
+        });
+  
+         
+ // Add "active" class to the clicked cart div and all previous divs
+
+
+ //     cartDivs.forEach((cartDiv, index) => {
+ //     cartDiv.addEventListener('click', () => {
+     
+ //         for (let i = 0; i <= index; i++) {
+ //         cartDivs[i].classList.add('custom-active');
+ //         }
+         
+ //         for (let i = index + 1; i < cartDivs.length; i++) {
+ //         cartDivs[i].classList.remove('custom-active');
+ //         }
+ //      });
+ // });
+ const cartDivs = document.querySelectorAll('.nav-cart');
+        const tabDivs = document.querySelectorAll('.next-tab');
+        const tabContents = document.querySelectorAll('.tab-forma');
+
+        tabDivs.forEach((tabDiv, index) => {
+            tabDiv.addEventListener('click', () => {
+             
+                tabContents.forEach(tabContent => {
+                    tabContent.classList.remove('active', 'show');
+                });
+
+                if (index < tabContents.length - 1) {
+                    for (let i = 0; i <= index+1; i++) {
+                cartDivs[i].classList.add('custom-active');
+                }
+                
+                for (let i = index + 2; i < cartDivs.length; i++) {
+                cartDivs[i].classList.remove('custom-active');
+                }
+                    tabContents[index + 1].classList.add('active', 'show');
+                }
+            });
+        });
+      </script>
+    <!-- Template Main JS File -->
+    <script src="../../assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"
+    integrity="sha512-NqYds8su6jivy1/WLoW8x1tZMRD7/1ZfhWG/jcRQLOzV1k1rIODCpMgoBnar5QXshKJGV7vi0LXLNXPoFsM5Zg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+</html>

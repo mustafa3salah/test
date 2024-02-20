@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>منصة الحلول | حساب جديد</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="../assets/img/business-portal-icon.svg" rel="icon" />
+    <link
+      href="../assets/img/business-portal-icon.svg"
+      rel="apple-touch-icon"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="../assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/countrySelect.min.css" />
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/business.css" rel="stylesheet" />
+  </head>
+
+  <body class="sign-page" >
+    <section class="sign-in p-0">
+      <div class="row g-0 justify-content-center align-items-center">
+        <div class="col-md-6 form-sign">
+          <div class="ftco-section">
+            <div class="container">
+              <div class="row justify-content-center sign-up">
+                <div class="col-md-8">
+                  <div class="d-flex justify-content-center mt-2 mb-4">
+                    <img src="../assets/img/business-portal-sign.svg" alt="" />
+                  </div>
+
+                  <div class="login-wrap">
+                    <h3 class="mb-4">أهلا بك في الحلول أعمال !</h3>
+                    <p class="text-center dont-have-btn mt-2">
+                      أدخل التفاصيل الخاصة بك
+                      <a data-toggle="tab" href="sign-up.html">لإنشاء حساب</a>
+                    </p>
+
+                    <form action="#" class="signup-form">
+                      <div class="row">
+                        <div class="col">
+                          <div class="form-group mb-2">
+                            <label class="label" for="name">الاسم الاول</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="form-group mb-2">
+                            <label class="label" for="password"
+                              >الاسم الاخير</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              required
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group mb-2">
+                        <label class="label" for="password"
+                          >البريد الالكتروني</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control pe-4"
+                          required
+                        />
+                      </div>
+                      <div class="form-group mb-2">
+                        <label class="label" for="password">كلمة المرور</label>
+
+                        <div class="position-relative">
+                          <input
+                            type="password"
+                            class="form-control"
+                            required
+                          />
+                          <span
+                            toggle="#password-field"
+                            class="fa fa-fw fa-eye field-icon toggle-password"
+                            ><img src="../assets/img/icon/eye.svg" alt="eye"
+                          /></span>
+                        </div>
+                      </div>
+                      <div class="form-group mb-2">
+                        <label class="label" for="password"
+                          >تأكيد كلمة المرور</label
+                        >
+                        <div class="position-relative">
+                          <input
+                            type="password"
+                            class="form-control"
+                            required
+                          />
+                          <span
+                            toggle="#password-field"
+                            class="fa fa-fw fa-eye field-icon toggle-password"
+                            ><img src="../assets/img/icon/eye.svg" alt="eye"
+                          /></span>
+                        </div>
+                      </div>
+                      <div class="form-group mb-2">
+                        <label class="label d-block" for="tel"
+                          >رقم الموبايل</label
+                        >
+                        <div class="position-relative">
+                          <div class="position-absolute icon-num">+966</div>
+                          <input id="tel" type="number"  class="form-control">
+                      </div>
+                      </div>
+                      <div class="form-group mt-1 text-end">
+                        <label class="checkbox-wrap mb-0">
+                          <input type="checkbox" checked="" />
+                          أوافق علي
+                          <a href="../business/privacy-policy.html"
+                            >سياسة الخصوصية</a
+                          >
+                          و
+                          <a href="../business/terms-and-conditions.html"
+                            >شروط الاستخدام</a
+                          >
+                        </label>
+                      </div>
+
+                      <div class="form-group mt-3 mb-4">
+                      <button type="submit" class="form-control btn btn-primary rounded  border-0 submit px-3"><a href="../business/profile.html" style="color: #fff; font-size: 18px">إنشاء حساب</a></button>
+ 
+                     <!--    <button type="submit">
+                          <a
+                          href="../business/profile.html"
+                          class="form-control btn btn-primary rounded submit border-0 px-3"
+                          style="color: #fff; font-size: 18px"
+                          >إنشاء حساب</a
+                        ></button> -->
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+        </div>
+      </div>
+    </section>
+
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script src="../assets/js/countrySelect.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+      $("#country_selector").countrySelect({
+        defaultCountry: "sa",
+        // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+        // responsiveDropdown: true,
+        preferredCountries: ["ca", "gb", "us"],
+      });
+      var toggleButtons = document.querySelectorAll(".toggle-password");
+      toggleButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+
+          var input = button.parentElement.children[0];
+          if (input.getAttribute("type") === "password") {
+            input.setAttribute("type", "text");
+          } else {
+            input.setAttribute("type", "password");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
